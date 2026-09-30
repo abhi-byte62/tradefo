@@ -1,0 +1,15 @@
+{
+  "name": "tradeforge-workspace",
+  "version": "1.0.0",
+  "description": "TradeForge - Production-Quality Web-Based Paper Trading Terminal",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build",
+    "test": "npm --prefix backend test",
+    "benchmark": "npm --prefix backend run benchmark"
+  },
+  "keywords": ["trading", "matching-engine", "market-data", "paper-trading", "terminal", "react", "typescript"],
+  "author": "TradeForge Engineering",
+  "license": "MIT"
+}
